@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<head>
+    <title>Beauty Salon</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <script>
+        $(document).ready(function(){
+            var btn = $('#backToTop');
+            $(window).on('scroll', function() {
+                if ($(window).scrollTop() > 50) {
+                    btn.addClass('show');
+                } else {
+                    btn.removeClass('show');
+                }
+            });
+            btn.on('click', function(e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: 0
+                }, '300');
+            });
+        });
+        </script>
+        
+</head>
+<body>
+    
+   <header>
+        <nav class="navbar-fluid">
+            <div class="logo_name">
+              <a href="index.html">
+                <img src="pngtree-salon-logo-png-image_4024992.png-removebg-preview.png" 
+                width="100px" height="100px">
+                </a> 
+                <div id="name">
+                <h1>Beauty Salon <i> Lotus </i></h1>
+                
+                </div>
+            </div>
+            <div class="navbar-collapse justify-content-between">
+                <div class="upper_text">
+                    <a href="about.html" >ABOUT US</a>
+                   <a href="service.html" >CATALOG OF SERVICES</a>
+                   <a href="masters.html" >LIST OF MASTERS</a>
+                    <a href="application.html" >APPLICATION FORM</a>
+                    <a href="quote.html"> QUOTE OF THE DAY</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouse" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/top-view-beauty-salon-concept_23-2148600664.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/beauty-salon-interior-5-scaled.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Welcome to our beautifully designed beauty salon</h1>
+                <p>where elegance and modernity come together. Step into our tranquil space with plush seating and private treatment rooms, providing the perfect environment for relaxation. Indulge in our wide range of beauty treatments and experience the serenity of our salon's interior.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/hair-salon-franchise.png" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Our dedicated team of professionals at our beauty salon</h1>
+                <p>
+            are committed to delivering exceptional service and personalized care. With years of experience and a passion for their craft, our skilled staff members are trained in the latest beauty techniques and trends. They are friendly, knowledgeable, and strive to make every client feel comfortable and pampered throughout their visit.</p>
+              </div>
+          </div>
+        </div>
+          
+          
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+                              
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+          <div class="row align-items-center">
+              <div class="col-lg-6 pb-5 pb-lg-0">
+                  <img class="img-fluid w-100" src="img/SkillsBeautySalon.jpeg" alt="">
+              </div>
+              <div class="col-lg-6">
+                  <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">About Us</h6>
+                  <h1 class="mb-4">Your Best Beauty & Care Center</h1>
+                  <p class="pl-4 border-left border-primary">
+                    <br>Welcome to our beauty salon, where we believe that beauty is not just skin deep. Our salon is a haven for all those who wish to unwind, relax and rejuvenate in a serene and tranquil environment.<br>
+
+                    At our salon, we offer a wide range of beauty treatments and services that cater to your every need. From facials to massages, manicures to pedicures, haircuts to hair coloring, and everything in between, we strive to provide our clients with the highest quality services that leave them feeling refreshed and revitalized.<br>
+                    
+                    Our team of skilled and experienced beauty therapists and stylists are passionate about what they do, and they take great pride in making sure that each and every client who walks through our doors leaves feeling satisfied and happy.</p>
+                  <div class="row pt-3">
+                      <div class="col-6">
+                          <div class="bg-light text-center p-4">
+                              <span id="count1"> <h3 class="display-4 text-primary" data-toggle="counter-up"></h3></span>
+                              <h6 class="text-uppercase">Beauty Specialist</h6>
+                          </div>
+                      </div>
+                      <div class="col-6">
+                          <div class="bg-light text-center p-4">
+                              <span id="count2"><h3 class="display-4 text-primary" data-toggle="counter-up"></h3></span>
+                              <h6 class="text-uppercase">Happy Clients</h6>
+                              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <script class="counter"> </script>
+  <script src="main_page.js"></script>  
+  <script src="main_page.js"> </script>
+  <a href="javascript:void(0);" id="backToTop" class="back-to-top">
+    <i class="fa fa-angle-double-up"></i></a>
+
+    <footer class="footer-distributed">
+
+        <div class="footer-right">
+
+            <a href="https://www.facebook.com/astanaituniversity/"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/astana_it_university/?__coig_restricted=1"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/astana-it-university?original_referer=https%3A%2F%2Fwww.google.com%2F"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+        <div class="footer-left">
+
+            <p class="footer-links">
+                <a class="link-1" href="main_page.html">Home</a>
+
+                <a href="about.html">About us</a>
+
+                <a href="service.html">Pricing</a>
+
+                <a href="masters.html">Masters</a>
+
+                <a href="about.html">Faq</a>
+
+                <a href="team.html">Contact</a>
+
+                <a href="application.html">Make appointment</a>
+
+                <a href="game.html">Entertaiment</a>
+            </p>
+
+            <p> <i>Lotus</i> &copy; 2023</p>
+        </div>
+
+    </footer>
+</body>

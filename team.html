@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="team.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script>
+       $(document).ready(function(){
+            var btn = $('#backToTop');
+            $(window).on('scroll', function() {
+                if ($(window).scrollTop() > 50) {
+                    btn.addClass('show');
+                } else {
+                    btn.removeClass('show');
+                }
+            });
+            btn.on('click', function(e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: 0
+                }, '300');
+            });
+        });
+        </script>
+</head>
+
+<body>
+    
+    <header>
+        <nav class="navbar-fluid">
+            <div class="logo_name">
+              <a href="index.html">
+                <img src="pngtree-salon-logo-png-image_4024992.png-removebg-preview.png" 
+                width="100px" height="100px">
+                </a> 
+                <div id="name">
+                <h1>Beauty Salon <i> Lotus </i></h1>
+                </div>
+            </div>
+            <div class="navbar-collapse justify-content-between">
+                <div class="upper_text">
+                    <a href="about.html" >ABOUT US</a>
+                   <a href="service.html" >CATALOG OF SERVICES</a>
+                   <a href="masters.html" >LIST OF MASTERS</a>
+                    <a href="application.html" >APPLICATION FORM</a>
+                    <a href="quote.html"> QUOTE OF THE DAY</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+   
+    <div class="team-grid">
+        <div class="container">
+            <div class="intro">
+                <button onclick="sound()"><i style="font-size:24px" class="fa">&#xf04b;Our Team</i> </button>
+                <script>
+                    function sound(){
+     var snd = new Audio('sound/nice-to-see-you.mp3')
+     snd.play()
+}
+                </script>
+                <p class="fade-in">Hello! Nice to see you. It is our team and here you can see responsibilities and amount of work of each member.</p>
+                
+            </div>
+            <div class="row people">
+                <div class="col-md-4 col-lg-3 item">
+                    <div class="box" style="background-image:url(img/tomiris.jpg)">
+                        <div class="cover">
+                            <h3 class="name">Tomiris Madiyarova</h3>
+                            <p class="title">Services,application form</p>
+                            <div class="social"><a href="https://en-gb.facebook.com/bangtan.official/"><i class="fa fa-facebook-official"></i></a><a href="https://twitter.com/BTS_twt"><i class="fa fa-twitter"></i></a><a href="https://www.instagram.com/bts.bighitofficial/?ysclid=lgttd3qf5b675998257"><i class="fa fa-instagram"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 item">
+                    <div class="box" style="background-image:url(img/binazir.jpg)">
+                        <div class="cover">
+                            <h3 class="name">Binazir Seidakhmetova</h3>
+                            <p class="title">About us, our team</p>
+                            <div class="social"><a href="https://en-gb.facebook.com/bangtan.official/"><i class="fa fa-facebook-official"></i></a><a href="https://twitter.com/BTS_twt"><i class="fa fa-twitter"></i></a><a href="https://www.instagram.com/bts.bighitofficial/?ysclid=lgttd3qf5b675998257"><i class="fa fa-instagram"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 item">
+                    <div class="box" style="background-image:url(img/gulzina.jpg)">
+                        <div class="cover">
+                            <h3 class="name">Gulzina Daulet</h3>
+                            <p class="title">Main page</p>
+                            <div class="social"><a href="https://en-gb.facebook.com/bangtan.official/"><i class="fa fa-facebook-official"></i></a><a href="https://twitter.com/BTS_twt"><i class="fa fa-twitter"></i></a><a href="https://www.instagram.com/bts.bighitofficial/?ysclid=lgttd3qf5b675998257"><i class="fa fa-instagram"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 item">
+                    <div class="box" style="background-image:url(img/inkara.jpg)">
+                        <div class="cover">
+                            <h3 class="name">Inkara Kalkamanova</h3>
+                            <p class="title">List of masters, games</p>
+                            <div class="social"><a href="https://en-gb.facebook.com/bangtan.official/"><i class="fa fa-facebook-official"></i></a><a href="https://twitter.com/BTS_twt"><i class="fa fa-twitter"></i></a><a href="https://www.instagram.com/inkara.kl/"><i class="fa fa-instagram"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="javascript:void(0);" id="backToTop" class="back-to-top">
+        <i class="fa fa-angle-double-up"></i></a>
+    
+        <footer class="footer-distributed">
+    
+            <div class="footer-right">
+    
+                <a href="https://www.facebook.com/astanaituniversity/"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/astana_it_university/?__coig_restricted=1"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/astana-it-university?original_referer=https%3A%2F%2Fwww.google.com%2F"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+    
+            </div>
+    
+            <div class="footer-left">
+    
+                <p class="footer-links">
+                    <a class="link-1" href="index.html">Home</a>
+    
+                    <a href="about.html">About us</a>
+    
+                    <a href="service.html">Pricing</a>
+    
+                    <a href="masters.html">Masters</a>
+    
+                    <a href="about.html">Faq</a>
+    
+                    <a href="team.html">Contact</a>
+    
+                    <a href="application.html">Make appointment</a>
+    
+                    <a href="game2.html">Entertaiment</a>
+                </p>
+    
+                <p> <i>Lotus</i> &copy; 2023</p>
+            </div>
+        </footer>
+        
+</body>
+
+</html>
